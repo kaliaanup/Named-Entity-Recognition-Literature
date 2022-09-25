@@ -28,3 +28,7 @@
 ##Danish
 
 1. [**COLING 2020**]: DaN+: Danish Nested Named Entities and Lexical Normalization
+
+##African
+
+1. [**TACL 2021**]: MasakhaNER: Named Entity Recognition for African Languages.

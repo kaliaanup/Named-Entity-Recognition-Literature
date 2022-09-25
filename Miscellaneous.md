@@ -104,6 +104,10 @@
 
 1. [**EMNLP 2021**]: CNNBiF: CNN-based Bigram Features for Named Entity Recognition
 
+## Partial Supervision
+
+1. [**TACL 2021**]: Partially Supervised Named Entity Recognition via the Expected Entity Ratio Loss. 
+
 ## HTML Based Named Entity Recognition
 
 1. [**COLING 2020**]: Leveraging HTML in Free Text Web Named Entity Recognition
