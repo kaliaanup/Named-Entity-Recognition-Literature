@@ -28,6 +28,22 @@
 
 1. [**ACL 2022**]: MINER: Improving Out-of-Vocabulary Named Entity Recognition from an Information Theoretic Perspective
 
+## Word-Word Relation Classification
+
+1. [**AAAI 2022**]: Unified Named Entity Recognition as Word-Word Relation Classification
+
+## Two-Stage Set Prediction Network
+
+1. [**IJCAI 2022**]: Propose-and-Refine: A Two-Stage Set Prediction Network for Nested Named Entity Recognition
+
+##  Knowledge-Aware Named Entity Recognition 
+
+1. [**AAAI 2021**]: Knowledge-Aware Named Entity Recognition  with Alleviating Heterogeneity
+
+## Continual Learning
+
+1. [**AAAI 2021**]: Continual Learning for Named Entity Recognition
+
 ## Two Stage Identifier
 
 1. [**ACL 2021**]: Locate and Label: A Two-stage Identifier for Nested Named Entity Recognition
@@ -60,10 +76,6 @@
 
 1. [**ACL 2021**]: Explicitly Capturing Relations between Entity Mentions via Graph Neural Networks for Domain-specific Named Entity Recognition
 
-## Zero Resource Named Entity Recognition
-
-1. [**ACL 2021**]: Target-oriented Fine-tuning for Zero-Resource Named Entity Recognition
-
 ## Decoupled Named Entity Recognition
 
 1. [**ACL 2021**]: Toward Fully Exploiting Heterogeneous Corpus: A Decoupled Named Entity Recognition Model with Two-stage Training
@@ -83,6 +95,10 @@
 ## Interpretability Analysis
 
 1. [**NAACL 2021**]: Interpretability Analysis for Named Entity Recognition to Understand System Predictions and How They Can Improve
+
+## Sequence-to-Set Network
+
+1. [**IJCAI 2021**]: A Sequence-to-Set Network for Nested Named Entity Recognition
 
 ## HTML Based Named Entity Recognition
 
@@ -104,10 +120,6 @@
 
 1. [**ACL 2020**]: A Unified MRC Framework for Named Entity Recognition
 
-## Code
-
-1. [**ACL 2020**]: Code and Named Entity Recognition in StackOverflow
-
 ## Multi Domain
 
 1. [**ACL 2020**]: Multi-Domain Named Entity Recognition with Genre-Aware and Agnostic Inference
@@ -123,3 +135,19 @@
 ## Trigger Based Named Entity Recognition
 
 1. [**ACL 2020**]: TriggerNER: Learning with Entity Triggers as Explanations for Named Entity Recognition
+
+## Knowledge-Graph Augmented Word Representations
+
+1. [**AAAI 2020**]:  Knowledge-Graph Augmented Word Representations For Named Entity Recognition
+
+## Hierarchical Contextualized Representation
+
+1. [**AAAI 2020**]: Hierarchical Contextualized Representation for Named Entity Recognition
+
+## Case Study
+
+1. [**AAAI 2020**]: Rethinking Generalization of Neural Models: A Named Entity Recognition Case Study
+
+## Attention-based Multi-level Feature Fusion 
+
+1. [**IJCAI 2020**]: Attention-based Multi-level Feature Fusion for Named Entity Recognition
