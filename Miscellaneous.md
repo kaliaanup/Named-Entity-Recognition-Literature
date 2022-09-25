@@ -52,11 +52,11 @@
 
 1. [**ACL 2021**]: Discontinuous Named Entity Recognition as Maximal Clique Discovery
 
-## Neural Transition-based Joint Model
+##Neural Transition-based Joint Model
 
 1. [**ACL 2021**]: A Neural Transition-based Joint Model for Disease Named Entity Recognition and Normalization
 
-## Domain-Specific Named Entity Recognition
+##Domain-Specific Named Entity Recognition
 
 1. [**ACL 2021**]: Explicitly Capturing Relations between Entity Mentions via Graph Neural Networks for Domain-specific Named Entity Recognition
 
@@ -72,7 +72,7 @@
 
 1. [**ACL 2021**]: Template-Based Named Entity Recognition Using BART
 
-## Noise Aware Training Mechanism
+##Noise Aware Training Mechanism
 
 1. [**ACL 2021**]: Named Entity Recognition via Noise Aware Training Mechanism with Data Filter
 
