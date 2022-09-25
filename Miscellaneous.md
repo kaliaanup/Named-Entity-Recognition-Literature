@@ -60,10 +60,6 @@
 
 1. [**ACL 2021**]: Improving Named Entity Recognition by External Context Retrieving and Cooperative Learning
 
-## Crowdsourcing Learning
-
-1. [**ACL 2021**]: Crowdsourcing Learning as Domain Adaptation: A Case Study on Named Entity Recognition
-
 ## Discontinuous Named Entity Recognition
 
 1. [**ACL 2021**]: Discontinuous Named Entity Recognition as Maximal Clique Discovery
@@ -71,10 +67,6 @@
 ## Neural Transition-based Joint Model
 
 1. [**ACL 2021**]: A Neural Transition-based Joint Model for Disease Named Entity Recognition and Normalization
-
-## Domain-Specific Named Entity Recognition
-
-1. [**ACL 2021**]: Explicitly Capturing Relations between Entity Mentions via Graph Neural Networks for Domain-specific Named Entity Recognition
 
 ## Decoupled Named Entity Recognition
 
@@ -100,6 +92,18 @@
 
 1. [**IJCAI 2021**]: A Sequence-to-Set Network for Nested Named Entity Recognition
 
+## Low Shot
+
+1. [**EMNLP 2021**]: Learning from Language Description: Low-shot Named Entity Recognition via Decomposed Framework
+
+## Entity Linking
+
+1. [**EMNLP 2021**]: Named Entity Recognition for Entity Linking: What Works and What's Next
+
+## CNN-based
+
+1. [**EMNLP 2021**]: CNNBiF: CNN-based Bigram Features for Named Entity Recognition
+
 ## HTML Based Named Entity Recognition
 
 1. [**COLING 2020**]: Leveraging HTML in Free Text Web Named Entity Recognition
@@ -108,9 +112,6 @@
 
 1. [**COLING 2020**]: Exploring Cross-sentence Contexts for Named Entity Recognition with BERT
 
-## Data Augmentation
-
-1. [**COLING 2020**]: An Analysis of Simple Data Augmentation for Named Entity Recognition
 
 ## Motion Entities
 
@@ -151,3 +152,19 @@
 ## Attention-based Multi-level Feature Fusion 
 
 1. [**IJCAI 2020**]: Attention-based Multi-level Feature Fusion for Named Entity Recognition
+
+## Word Embedding Based
+
+1. [**EMNLP 2020**]: Named Entity Recognition Only from Word Embeddings
+
+## Interpretable Multi-dataset Evaluation 
+
+1. [**EMNLP 2020**]: Interpretable Multi-dataset Evaluation for Named Entity Recognition.
+
+## Social Media
+
+1. [**EMNLP 2020**]: Named Entity Recognition for Social Media Texts with Semantic Augmentation.
+
+## Digitization Errors
+
+1. [**CoNLL 2020**]: Alleviating Digitization Errors in Named Entity Recognition for Historical Documents.

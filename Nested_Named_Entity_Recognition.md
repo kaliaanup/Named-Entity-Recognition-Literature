@@ -10,6 +10,7 @@
 8. [**ACL 2020**]: Bipartite Flat-Graph Network for Nested Named Entity Recognition
 9. [**ACL 2020**]: Pyramid: A Layered Model for Nested Named Entity Recognition
 10. [**AAAI 2020**]: Boundary Enhanced Neural Span Classification for Nested Named Entity Recognition
+11. [**EMNLP 2020**]: HIT: Nested Named Entity Recognition via Head-Tail Pair and Token Interaction
 
 ##Danish
 

@@ -9,3 +9,5 @@
 7. [**COLING 2022**]: FactMix: Using a Few Labeled In-domain Examples to Generalize to Cross-domain Named Entity Recognition
 8. [**ACL 2021**]: Few-NERD: A Few-shot Named Entity Recognition Dataset
 9. [**ACL 2021**]: Learning from Miscellaneous Other-Class Words for Few-shot Named Entity Recognition
+10. [**EMNLP 2021**]: Few-Shot Named Entity Recognition: An Empirical Baseline Study
+11. [**EMNLP 2020**]: Simple and Effective Few-Shot Named Entity Recognition with Structured Nearest Neighbor Learning.

@@ -11,7 +11,9 @@ Mode
 8. [**ACL 2021**]: Weakly Supervised Named Entity Tagging with Learnable Logical Rules
 9. [**ACL 2021**]: Named Entity Recognition through Deep Representation Learning and Weak Supervision
 10. [**ACL 2021**]: The Utility and Interplay of Gazetteers and Entity Segmentation for Named Entity Recognition in English
-11. [**ACL 2020**]: Named Entity Recognition without Labelled Data: A Weak Supervision Approach
-12. [**ACL 2020**]: Soft Gazetteers for Low-Resource Named Entity Recognition
-13. [**AAAI 2020**] HAMNER: Headword Amplified Multi-span Distantly Supervised Method for Domain Specific Named Entity
+11. [**EMNLP 2021**]: Distantly-Supervised Named Entity Recognition with Noise-Robust Learning and Language Model Augmented Self-Training
+12. [**ACL 2020**]: Named Entity Recognition without Labelled Data: A Weak Supervision Approach
+13. [**ACL 2020**]: Soft Gazetteers for Low-Resource Named Entity Recognition
+14. [**AAAI 2020**]: HAMNER: Headword Amplified Multi-span Distantly Supervised Method for Domain Specific Named Entity
 Recognition
+15. [**EMNLP 2020**]: Counterfactual Generator: A Weakly-Supervised Method for Named Entity Recognition

@@ -5,7 +5,8 @@
 3. [**COLING 2022**]: AnonymousDataset: A Large-scale Multilingual dataset for Complex Named Entity Recognition
 4. [**COLING 2022**]: A Resource of Wikipedias in 31 Languages Categorized into Fine-Grained Named Entities
 5. [**SIGIR 2021**]: A Multilingual Dataset for Named Entity Recognition, EntityLinking and Stance Detection in Historical Newspapers
-6. [**ACL 2020**]: Sources of Transfer in Multilingual Named Entity Recognition
+6. [**EMNLP 2021**]: Language Clustering for Multilingual Named Entity Recognition
+7. [**ACL 2020**]: Sources of Transfer in Multilingual Named Entity Recognition
 
 ##Chinese
    
