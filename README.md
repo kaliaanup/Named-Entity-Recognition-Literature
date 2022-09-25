@@ -1,4 +1,6 @@
-# Named-Entity-Recognition-Literature (Ranked Order by Topics)
+# Named-Entity-Recognition-Literature Ranked 
+
+### Order by Topics
 
 1. MultiLingual Named Entity Recognition (16 Papers)
 2. Distant Supervised Named Entity Recognition (11 Papers)
