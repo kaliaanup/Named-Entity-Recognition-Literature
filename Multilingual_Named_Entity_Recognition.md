@@ -1,12 +1,22 @@
 # MultiLingual Named Entity Recognition
 
-1. [**NAACL 2022**]: MultiNER: A Multilingual, Multi-Genre and Fine-Grained Dataset for Named Entity Recognition
+1. [**NAACL 2022**]: [MultiNER: A Multilingual, Multi-Genre and Fine-Grained Dataset for Named Entity Recognition](https://aclanthology.org/2022.findings-naacl.60/)
+	- Baseline Methods: WIKIANN, WIKINER, WIKINEURAL
+	- New Methods: MULTINERD W/O SELF-IMPROVEMENT, MULTINERD
+	- Datasets: CoNLL-2002 and 2003 (EN, ES, NL, DE), WikiGold (EN), OntoNotes 5.0 (EN), BSNLP-2017 (RU, PL)
+	- Approach: [Code & Dataset](https://github.com/Babelscape/multinerd)
+	
 2. [**COLING 2022**]: Natural Annotation and Curriculum Learning to Named Entity Recognition for Under-Resourced Languages
 3. [**COLING 2022**]: AnonymousDataset: A Large-scale Multilingual dataset for Complex Named Entity Recognition
 4. [**COLING 2022**]: A Resource of Wikipedias in 31 Languages Categorized into Fine-Grained Named Entities
-5. [**SIGIR 2021**]: A Multilingual Dataset for Named Entity Recognition, EntityLinking and Stance Detection in Historical Newspapers
-6. [**EMNLP 2021**]: Language Clustering for Multilingual Named Entity Recognition
-7. [**ACL 2020**]: Sources of Transfer in Multilingual Named Entity Recognition
+5. [**SIGIR 2021**]: [A Multilingual Dataset for Named Entity Recognition, EntityLinking and Stance Detection in Historical Newspapers](https://hal.archives-ouvertes.fr/hal-03418387/document)
+	- Dataset: [NewsEye](https://zenodo.org/record/4573313#.YzEZRuzMKw1)
+6. [**EMNLP 2021**]: [Language Clustering for Multilingual Named Entity Recognition](https://aclanthology.org/2021.findings-emnlp.4.pdf)
+	- Datasets: CoNLL-2003, WikiAnn
+7. [**ACL 2020**]: [Sources of Transfer in Multilingual Named Entity Recognition](https://aclanthology.org/2020.acl-main.720.pdf)
+	- Baseline Methods:  Word Level CRF (BiLSTM CRF), CharNER, Byte to Span 
+	- Datasets: CoNLL and LORELEI
+	- Approach: [Code](https://github.com/davidandym/multilingual-NER)
 
 ##Chinese
    
@@ -32,3 +42,4 @@
 ##African
 
 1. [**TACL 2021**]: MasakhaNER: Named Entity Recognition for African Languages.
+
