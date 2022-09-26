@@ -47,13 +47,20 @@
 
 ## Vietnamese
 
-1. [**NAACL 2021**]: COVID-19 Named Entity Recognition for Vietnamese
+1. [**NAACL 2021**]: [COVID-19 Named Entity Recognition for Vietnamese](https://aclanthology.org/2021.naacl-main.173.pdf)
+	- Baseline Methods: single task-merged, multi-task, multi-label
+	- Approach: [Dataset](https://github.com/VinAIResearch/PhoNER_COVID19)
 
 ## Danish
 
-1. [**COLING 2020**]: DaN+: Danish Nested Named Entities and Lexical Normalization
+1. [**COLING 2020**]: [DaN+: Danish Nested Named Entities and Lexical Normalization](https://aclanthology.org/2020.coling-main.583/)
+	- Datasets: German News, DAN+: News (UD-DDT), Reddit, Twitter, Arto
+	- Approach: [Code & Datasets](https://github.com/bplank/DaNplus)
 
 ## African
 
-1. [**TACL 2021**]: MasakhaNER: Named Entity Recognition for African Languages.
+1. [**TACL 2021**]: [MasakhaNER: Named Entity Recognition for African Languages](https://aclanthology.org/2021.tacl-1.66/)
+	- Baseline Methods: CNN-BiLSTM-CRF, mBERT, XLM-R, MeanE-BiLSTM, Language BERT
+	- Languages: Amharic, Hausa, Igbo, Kinyarwanda, Luganda, Luo, Nigerian-Pidgin, Swahili, Wolof, Yoruba, 
+	- Approach: [Code & Dataset](https://github.com/masakhane-io/masakhane-ner/)
 
