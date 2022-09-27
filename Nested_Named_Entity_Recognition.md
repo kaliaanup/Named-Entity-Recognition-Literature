@@ -1,7 +1,14 @@
 # Nested Named Entity Recognition
 
-1. [**ACL 2022**]: Nested Named Entity Recognition as Latent Lexicalized Constituency Parsing
-2. [**ACL 2022**]: Nested Named Entity Recognition with Span-level Graphs
+1. [**ACL 2022**]: [Nested Named Entity Recognition as Latent Lexicalized Constituency Parsing](https://aclanthology.org/2022.acl-long.428.pdf)
+	- Baseline Methods: SH, Pyramid, PO-TreeCRF, Seq2set, Locate&Label
+	- Datasets: ACE2004, ACE2005 and GENIA
+	- Approach: [Code](https://github.com/LouChao98/nner_as_parsing)
+
+2. [**ACL 2022**]: [Nested Named Entity Recognition with Span-level Graphs](https://aclanthology.org/2022.acl-long.63/)
+	- Baseline Methods: HyperGraph, Stack-LSTM, Seg-Graph, ARN, Seq2seq, Path-BERT, ML, Pyramid, SpERT, BENSC,  BERTMRC, NER-DP, DYGIE
+	- Datasets: ACE2004, ACE2005 and GENIA
+	
 3. [**COLING 2022**]: Nested Named Entity Recognition as Corpus Aware Holistic Structure Parsing
 4. [**COLING 2022**]: Simple yet Powerful: An Overlooked Architecture for Nested Named Entity Recognition
 5. [**AAAI 2021**]: A Supervised Multi-Head Self-Attention Network for Nested Named Entity Recognition
