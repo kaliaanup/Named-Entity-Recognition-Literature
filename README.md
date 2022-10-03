@@ -28,9 +28,9 @@
 
 # Datasets
 
-1. [CONLL-2002](https://github.com/kaliaanup/Named-Entity-Recognition-Literature/tree/main/datasets/CONLL-2002)#multilingual
-2. [CONLL 2003](https://github.com/kaliaanup/Named-Entity-Recognition-Literature/tree/main/datasets/CONLL-2003)#multilingual
-3. [WikiGold](https://github.com/kaliaanup/Named-Entity-Recognition-Literature/tree/main/datasets/WIKIGOLD)#multilingual
+1. [CONLL-2002](https://github.com/kaliaanup/Named-Entity-Recognition-Literature/tree/main/datasets/CONLL-2002) (topics: #multilingual)
+2. [CONLL 2003](https://github.com/kaliaanup/Named-Entity-Recognition-Literature/tree/main/datasets/CONLL-2003) (topics: #multilingual)
+3. [WikiGold](https://github.com/kaliaanup/Named-Entity-Recognition-Literature/tree/main/datasets/WIKIGOLD) (topics: #multilingual)
 4. 
 
 
