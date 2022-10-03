@@ -28,9 +28,9 @@
 
 # Datasets
 
-1. CONLL-2002
-2. CONLL 2003
-3. 
+1. [CONLL-2002](https://github.com/kaliaanup/Named-Entity-Recognition-Literature/tree/main/datasets/CONLL-2002)
+2. [CONLL 2003](https://github.com/kaliaanup/Named-Entity-Recognition-Literature/tree/main/datasets/CONLL-2003)
+
 
 # Conferences Covered
 
