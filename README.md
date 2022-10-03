@@ -28,11 +28,37 @@
 
 # Datasets
 
-1. [CONLL-2002](https://github.com/kaliaanup/Named-Entity-Recognition-Literature/tree/main/datasets/CONLL-2002) (topics: #multilingual)
-2. [CONLL 2003](https://github.com/kaliaanup/Named-Entity-Recognition-Literature/tree/main/datasets/CONLL-2003) (topics: #multilingual)
-3. [WIKIGOLD](https://github.com/kaliaanup/Named-Entity-Recognition-Literature/tree/main/datasets/WIKIGOLD) (topics: #multilingual)
-4. [ONTONOTES-5.0](https://github.com/kaliaanup/Named-Entity-Recognition-Literature/tree/main/datasets/ONTONOTES-5.0) (topics: #multilingual)
-5. [BSNLP-2017](https://github.com/kaliaanup/Named-Entity-Recognition-Literature/tree/main/datasets/BSNLP-2017) (topics: #multilingual)
+1. [CONLL-2002](https://github.com/kaliaanup/Named-Entity-Recognition-Literature/tree/main/datasets/CONLL-2002) (topics: #multilingual, #kaggle, #huggingface)
+2. [CONLL 2003](https://github.com/kaliaanup/Named-Entity-Recognition-Literature/tree/main/datasets/CONLL-2003) (topics: #multilingual, #kaggle, #huggingface, #distant, #nested, #fewshot)
+3. [WIKIGOLD](https://github.com/kaliaanup/Named-Entity-Recognition-Literature/tree/main/datasets/WIKIGOLD) (topics: #multilingual, #huggingface, #distant, #fewshot)
+4. [ONTONOTES-4.0](https://github.com/kaliaanup/Named-Entity-Recognition-Literature/tree/main/datasets/ONTONOTES-4.0) (topics: #multilingual)
+5. [ONTONOTES-5.0](https://github.com/kaliaanup/Named-Entity-Recognition-Literature/tree/main/datasets/ONTONOTES-5.0) (topics: #multilingual, #huggingface, #fewshot)
+6. [BSNLP-2017](https://github.com/kaliaanup/Named-Entity-Recognition-Literature/tree/main/datasets/BSNLP-2017) (topics: #multilingual)
+7. [MSRA](https://github.com/kaliaanup/Named-Entity-Recognition-Literature/tree/main/datasets/MSRA) (topics: #multilingual, #huggingface)
+8. [WEIBO](https://github.com/kaliaanup/Named-Entity-Recognition-Literature/tree/main/datasets/WEIBO) (topics: #multilingual, #huggingface)
+9. [BC5CDR](https://github.com/kaliaanup/Named-Entity-Recognition-Literature/tree/main/datasets/BC5CDR) (topics: #distant)
+10. [NCBI](topics: #distant)
+11. [ACE2005](topics: #distant, #nested)
+12. [LaptopReview](topics: #distant)
+13. [CHEMDNER](topics: #distant)
+14. [LORELEI](topics: #distant)
+15. [CNER](topics: #distant)
+16. [IDiag](topics: #distant)
+17. [CLUENER](topics: #distant, #fewshot)
+18. [ACE2004](topics: #nested)
+19. [GENIA](topics: #nested)
+20. [KBP2017](topics: #nested)
+21. [JNLPBA](topics: #nested)
+22. [NNE](topics: #nested)
+23. [I2B2](topics: #fewshot)
+24. [WNUT-2017](topics: #fewshot)
+25. [GUM](topics: #fewshot)
+26. [Movie](topics: #fewshot)
+27. [Restaurant](topics: #fewshot)
+28. [SNIPS](topics: #fewshot)
+29. [ATIS](topics: #fewshot)
+30. [Multiwoz](topics: #fewshot)
+
 
 # Conferences Covered
 
