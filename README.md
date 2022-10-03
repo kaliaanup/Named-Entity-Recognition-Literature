@@ -23,7 +23,7 @@
 19. [Code Based Named Entity Recognition](https://github.com/kaliaanup/Named-Entity-Recognition-Literature/blob/main/Code_Based_Named_Entity_Recognition.md) (2 Papers)
 20. [Domain-Specific Named Entity Recognition](https://github.com/kaliaanup/Named-Entity-Recognition-Literature/blob/main/Domain_Specific_Named_Entity_Recognition.md)
 21. [Data Augmentation Based Named Entity Recognition](https://github.com/kaliaanup/Named-Entity-Recognition-Literature/blob/main/Data_Augmentation_Named_Entity_Recognition.md) (2 Papers)
-22. [Domain Adaptation Based Named Entity Recognition](https://github.com/kaliaanup/Named-Entity-Recognition-Literature/blob/main/Domain_Adaptation_Named_Entity_Recognition.md) (2 Papers)) (2 Papers)
+22. [Domain Adaptation Based Named Entity Recognition](https://github.com/kaliaanup/Named-Entity-Recognition-Literature/blob/main/Domain_Adaptation_Named_Entity_Recognition.md) (2 Papers)
 23. [Miscellaneous](https://github.com/kaliaanup/Named-Entity-Recognition-Literature/blob/main/Miscellaneous.md)
 
 # Conferences Covered
