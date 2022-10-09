@@ -75,7 +75,9 @@
 	
 ## Frequent Baseline Methods
 
-| Methods	|ACE-2005 (F1)	|	GENIA (F1)	|
-|:----------|:--------------|:-------------:|
-|[SH](https://aclanthology.org/2020.tacl-1.39.pdf)[12]   |76.83			|77.19			|
+| Methods	|ACE-2005 (F1)	|	ACE-2004 (F1) | GENIA (F1)	|
+|:----------|:--------------|:-------------:|:-------------:|
+|[SH](https://aclanthology.org/2020.tacl-1.39.pdf)[12]|76.83|77.44|77.19|
+|[SH + BERT](https://aclanthology.org/2020.tacl-1.39.pdf)[12]|83.99|84.97|77.05|
+|[SH + BERT + FLAIR](https://aclanthology.org/2020.tacl-1.39.pdf)[12]|84.34|85.82|77.36|
 	
