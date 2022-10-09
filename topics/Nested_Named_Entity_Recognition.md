@@ -36,7 +36,7 @@
 	- Authors: Yiran Wang, Hiroyuki Shindo, Yuji Matsumoto, Taro Watanabe
 	- Baseline Methods:layered-CRF, Transition, SH (Segm. hyp), Anchor-Region, Seq2seq, (a few more..)
 	- Datasets:ACE2004, ACE2005, GENIA
-	- Approach: [Code](https://github.com/speedcell4/nersted)
+	- Approach: W[Code](https://github.com/speedcell4/nersted)
 	
 8. [**ACL 2020**]: [Bipartite Flat-Graph Network for Nested Named Entity Recognition](https://aclanthology.org/2020.acl-main.571/)
 	- Authors: Ying Luo, Hai Zhao
@@ -77,15 +77,25 @@
 
 | Methods	|ACE-2004 (F1)	|	ACE-2005 (F1) | GENIA (F1)	| NNE (F1) |
 |:----------|:--------------|:-------------:|:-------------:|:-------------:|
-|[SH](https://aclanthology.org/2020.tacl-1.39.pdf)[12]|77.44|76.83|77.19||
-|[SH + BERT](https://aclanthology.org/2020.tacl-1.39.pdf)[12]|84.97|83.99|77.05||
-|[SH + BERT + FLAIR](https://aclanthology.org/2020.tacl-1.39.pdf)[12]|85.82|84.34|77.36||
-|[Pyramid-Basic](https://aclanthology.org/2020.acl-main.525.pdf)[9]|79.83|79.32|77.55|93.64|
-|[Pyramid-Full](https://aclanthology.org/2020.acl-main.525.pdf)[9]|80.27|79.42|77.78|93.70|
-|[Pyramid-Basic + BERT](https://aclanthology.org/2020.acl-main.525.pdf)[9]|86.28|84.66|79.19|94.37|
-|[Pyramid-Basic + BERT + FLAIR](https://aclanthology.org/2020.acl-main.525.pdf)[9]| 86.78| 85.49|79.24|94.47|
-|[Pyramid-Basic + ALBERT](https://aclanthology.org/2020.acl-main.525.pdf)[9]|86.99| 85.87| 78.82|94.51|
-|[Pyramid-Basic + ALBERT + FLAIR](https://aclanthology.org/2020.acl-main.525.pdf)[9]|86.89| 86.15|78.93| 94.48|
-|[Pyramid-Basic + ALBERT + BERT](https://aclanthology.org/2020.acl-main.525.pdf)[9]| 87.70|86.27| 78.95| 94.63|
-|[Pyramid-Full + BERT + FLAIR](https://aclanthology.org/2020.acl-main.525.pdf)[9]|||79.31 ||
-|[Pyramid-Full + ALBERT + BERT](https://aclanthology.org/2020.acl-main.525.pdf)[9]|87.74|86.34||94.68|
+|[SH (Shibuya & Hovy, 2020)](https://aclanthology.org/2020.tacl-1.39.pdf)[12]|77.44|76.83|77.19||
+|[SH (Shibuya & Hovy, 2020) + BERT](https://aclanthology.org/2020.tacl-1.39.pdf)[12]|84.97|83.99|77.05||
+|[SH (Shibuya & Hovy, 2020) + BERT + FLAIR](https://aclanthology.org/2020.tacl-1.39.pdf)[12]|85.82|84.34|77.36||
+|[Pyramid-Basic (Wang et al., 2020)](https://aclanthology.org/2020.acl-main.525.pdf)[9]|79.83|79.32|77.55|93.64|
+|[Pyramid-Full (Wang et al., 2020)](https://aclanthology.org/2020.acl-main.525.pdf)[9]|80.27|79.42|77.78|93.70|
+|[Pyramid-Basic (Wang et al., 2020) + BERT](https://aclanthology.org/2020.acl-main.525.pdf)[9]|86.28|84.66|79.19|94.37|
+|[Pyramid-Basic (Wang et al., 2020) + BERT + FLAIR](https://aclanthology.org/2020.acl-main.525.pdf)[9]| 86.78| 85.49|79.24|94.47|
+|[Pyramid-Basic (Wang et al., 2020) + ALBERT](https://aclanthology.org/2020.acl-main.525.pdf)[9]|86.99| 85.87| 78.82|94.51|
+|[Pyramid-Basic (Wang et al., 2020) + ALBERT + FLAIR](https://aclanthology.org/2020.acl-main.525.pdf)[9]|86.89| 86.15|78.93| 94.48|
+|[Pyramid-Basic (Wang et al., 2020) + ALBERT + BERT](https://aclanthology.org/2020.acl-main.525.pdf)[9]| 87.70|86.27| 78.95| 94.63|
+|[Pyramid-Full (Wang et al., 2020) + BERT + FLAIR](https://aclanthology.org/2020.acl-main.525.pdf)[9]|||79.31 ||
+|[Pyramid-Full (Wang et al., 2020) + ALBERT + BERT](https://aclanthology.org/2020.acl-main.525.pdf)[9]|87.74|86.34||94.68|
+|[W-naive(Wang et al., 2021)](https://aclanthology.org/2021.acl-long.275/)[7]|79.38|78.32|77.03||
+|[W-max(Wang et al., 2021)](https://aclanthology.org/2021.acl-long.275/)[7]|79.92|78.81|77.22||
+|[W-logsumexp(Wang et al., 2021)](https://aclanthology.org/2021.acl-long.275/)[7]|80.08|78.55|77.37||
+|[W-naive(Wang et al., 2021) + BERT](https://aclanthology.org/2021.acl-long.275/)[7]|85.73|84.20|78.45||
+|[W-max(Wang et al., 2021) + BERT](https://aclanthology.org/2021.acl-long.275/)[7]|85.68|84.71|78.67||
+|[W-logsumexp(Wang et al., 2021) + BERT](https://aclanthology.org/2021.acl-long.275/)[7]|86.06|84.30|78.54||
+|[W-naive(Wang et al., 2021) + BERT + FLAIR](https://aclanthology.org/2021.acl-long.275/)[7]|86.11|84.52|78.79||
+|[W-max(Wang et al., 2021) + BERT + FLAIR](https://aclanthology.org/2021.acl-long.275/)[7]|86.19|84.73|78.87||
+|[W-logsumexp(Wang et al., 2021) + BERT + FLAIR](https://aclanthology.org/2021.acl-long.275/)[7]|86.42|84.93|78.93||
+
