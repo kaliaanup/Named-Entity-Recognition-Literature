@@ -65,10 +65,18 @@
 	- Authors: Takashi Shibuya, Eduard Hovy
 	- Baseline Methods: LSTM. hyp, layered-CRF, SH (Segm. hyp), Exhaustive, Boundary-aware, GEANN, Merge & Label, Seq2seq
 	- Datasets: ACE-2005, GENIA
-	- Approach: [Code](https://github.com/yahshibu/nested-ner-tacl2020)
+	- Approach: SH [Code](https://github.com/yahshibu/nested-ner-tacl2020)
 ## Danish
 
 1. [**COLING 2020**]: [DaN+: Danish Nested Named Entities and Lexical Normalization](https://aclanthology.org/2020.coling-main.583/)
 	- Authors: Barbara Plank, Kristian Nørgaard Jensen, Rob van der Goot
 	- Datasets: German News, DAN+: News (UD-DDT), Reddit, Twitter, Arto
 	- Approach: [Code & Datasets](https://github.com/bplank/DaNplus)
+	
+## Frequent Baseline Methods
+
+	| Methods	|	ACE-2005 			|	GENIA				|
+	|:----------|:----------------------|:----------------------|
+	|			|	P	|	R	| F		|	P	|	R	|	F	|
+	|:----------|:----------------------|:----------------------|
+	|[SH](12)   |78.27 	|75.44	|76.83	|78.70	|75.74 	|77.19	|
