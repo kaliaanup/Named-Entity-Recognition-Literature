@@ -48,7 +48,7 @@
 	- Authors: Jue Wang, Lidan Shou, Ke Chen, Gang Chen
 	- Baseline Methods: Non-LM based (Transition, SH, FOFE, Merge & Label, Anchor-Region, LH, Cascaded-CRF), LM based (ELMO, BERT, BERT+Flair)
 	- Datasets:ACE-2004, ACE-2005, GENIA, NNE
-	- Approach: [Code](https://github.com/LorrinWWW/Pyramid)
+	- Approach: Pyramid [Code](https://github.com/LorrinWWW/Pyramid)
 	
 10. [**AAAI 2020**]: [Boundary Enhanced Neural Span Classification for Nested Named Entity Recognition](https://ojs.aaai.org/index.php/AAAI/article/view/6434)
 	- Authors: Chuanqi Tan, Wei Qiu, Mosha Chen, Rui Wang, Fei Huang
@@ -75,9 +75,17 @@
 	
 ## Frequent Baseline Methods
 
-| Methods	|ACE-2005 (F1)	|	ACE-2004 (F1) | GENIA (F1)	|
-|:----------|:--------------|:-------------:|:-------------:|
-|[SH](https://aclanthology.org/2020.tacl-1.39.pdf)[12]|76.83|77.44|77.19|
-|[SH + BERT](https://aclanthology.org/2020.tacl-1.39.pdf)[12]|83.99|84.97|77.05|
-|[SH + BERT + FLAIR](https://aclanthology.org/2020.tacl-1.39.pdf)[12]|84.34|85.82|77.36|
-	
+| Methods	|ACE-2004 (F1)	|	ACE-2005 (F1) | GENIA (F1)	| NNE (F1) |
+|:----------|:--------------|:-------------:|:-------------:|:-------------:|
+|[SH](https://aclanthology.org/2020.tacl-1.39.pdf)[12]|77.44|76.83|77.19||
+|[SH + BERT](https://aclanthology.org/2020.tacl-1.39.pdf)[12]|84.97|83.99|77.05||
+|[SH + BERT + FLAIR](https://aclanthology.org/2020.tacl-1.39.pdf)[12]|85.82|84.34|77.36||
+|[Pyramid-Basic](https://aclanthology.org/2020.acl-main.525.pdf)[9]|79.83|79.32|77.55|93.64|
+|[Pyramid-Full](https://aclanthology.org/2020.acl-main.525.pdf)[9]|80.27|79.42|77.78|93.70|
+|[Pyramid-Basic + BERT](https://aclanthology.org/2020.acl-main.525.pdf)[9]|86.28|84.66|79.19|94.37|
+|[Pyramid-Basic + BERT + FLAIR](https://aclanthology.org/2020.acl-main.525.pdf)[9]| 86.78| 85.49|79.24|94.47|
+|[Pyramid-Basic + ALBERT](https://aclanthology.org/2020.acl-main.525.pdf)[9]|86.99| 85.87| 78.82|94.51|
+|[Pyramid-Basic + ALBERT + FLAIR](https://aclanthology.org/2020.acl-main.525.pdf)[9]|86.89| 86.15|78.93| 94.48|
+|[Pyramid-Basic + ALBERT + BERT](https://aclanthology.org/2020.acl-main.525.pdf)[9]| 87.70|86.27| 78.95| 94.63|
+|[Pyramid-Full + BERT + FLAIR](https://aclanthology.org/2020.acl-main.525.pdf)[9]|||79.31 ||
+|[Pyramid-Full + ALBERT + BERT](https://aclanthology.org/2020.acl-main.525.pdf)[9]|87.74|86.34||94.68|
