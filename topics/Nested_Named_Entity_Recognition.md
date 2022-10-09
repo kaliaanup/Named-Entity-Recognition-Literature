@@ -37,31 +37,43 @@
 	- Baseline Methods:layered-CRF, Transition, SH (Segm. hyp), Anchor-Region, Seq2seq, (a few more..)
 	- Datasets:ACE2004, ACE2005, GENIA
 	- Approach: **W**[Code](https://github.com/speedcell4/nersted)
+
+8. [**IJCAI 2021**]: [A Sequence-to-Set Network for Nested Named Entity Recognition](https://arxiv.org/pdf/2105.08901.pdf)
+	- Authors: Zeqi Tan, Yongliang Shen, Shuai Zhang, Weiming Lu, Yueting Zhuang
+	- Baseline Methods: Biaffine, Pyramid, BiFlaG, Seq2seq, Second-best, ARN, Hyper-Graph, KBP17-Best
+	- Datasets: ACE 2004,  ACE 2005, GENIA, KBP 2017 
+	- Approach: **Seq2set** [Code](https://github.com/zqtan1024/sequence-to-set)
 	
-8. [**ACL 2020**]: [Bipartite Flat-Graph Network for Nested Named Entity Recognition](https://aclanthology.org/2020.acl-main.571/)
+9. [**ACL 2021**]: [Locate and Label: A Two-stage Identifier for Nested Named Entity Recognition](https://aclanthology.org/2021.acl-long.216/)
+	- Authors: Yongliang Shen, Xinyin Ma, Zeqi Tan, Shuai Zhang, Wen Wang, Weiming Lu
+	- Baseline Methods: SH, Pyramid, few more  ..
+	- Datasets: ACE 2004,  ACE 2005, GENIA, KBP 2017 
+	- Approach: **Locate & Label**[Code](https://github.com/tricktreat/locate-and-label)
+
+10. [**ACL 2020**]: [Bipartite Flat-Graph Network for Nested Named Entity Recognition](https://aclanthology.org/2020.acl-main.571/)
 	- Authors: Ying Luo, Hai Zhao
 	- Baseline Methods: LSTM-CRF, Multi-CRF, layered-CRF, LH (LSTM. hyp), SH (Segm. hyp), Exhaustive, Anchor-Region, Merge & Label, Boundary-aware, GEANN, KBP2017 Overview
 	- Datasets: ACE2005, GENIA, KBP2017
 	- Approach: [Code](https://github.com/cslydia/BiFlaG)
 	
-9. [**ACL 2020**]: [Pyramid: A Layered Model for Nested Named Entity Recognition](https://aclanthology.org/2020.acl-main.525.pdf)
+11. [**ACL 2020**]: [Pyramid: A Layered Model for Nested Named Entity Recognition](https://aclanthology.org/2020.acl-main.525.pdf)
 	- Authors: Jue Wang, Lidan Shou, Ke Chen, Gang Chen
 	- Baseline Methods: Non-LM based (Transition, SH, FOFE, Merge & Label, Anchor-Region, LH, Cascaded-CRF), LM based (ELMO, BERT, BERT+Flair)
 	- Datasets:ACE-2004, ACE-2005, GENIA, NNE
 	- Approach: **Pyramid**[Code](https://github.com/LorrinWWW/Pyramid)
 	
-10. [**AAAI 2020**]: [Boundary Enhanced Neural Span Classification for Nested Named Entity Recognition](https://ojs.aaai.org/index.php/AAAI/article/view/6434)
+12. [**AAAI 2020**]: [Boundary Enhanced Neural Span Classification for Nested Named Entity Recognition](https://ojs.aaai.org/index.php/AAAI/article/view/6434)
 	- Authors: Chuanqi Tan, Wei Qiu, Mosha Chen, Rui Wang, Fei Huang
 	- Baseline Methods: LSTM-CRF, Multi-CRF, FOFE, Transition, Cascaded-CRF, MH, LH, SH, ARNs, MGNER, Merge and Label
 	- Datasets: ACE2004, ACE2005, GENIA
 	- Approach:
 	
-11. [**EMNLP 2020**]: [HIT: Nested Named Entity Recognition via Head-Tail Pair and Token Interaction](https://aclanthology.org/2020.emnlp-main.486/)
+13. [**EMNLP 2020**]: [HIT: Nested Named Entity Recognition via Head-Tail Pair and Token Interaction](https://aclanthology.org/2020.emnlp-main.486/)
 	- Authors: Yu Wang, Yun Li, Hanghang Tong, Ziye Zhu
 	- Baseline Methods: Sequence-based methods, Hypergraph-based methods.
 	- Datasets: GENIA, GermEval, JNLPBA
 	-
-12. [**TACL 2020**]: [Nested Named Entity Recognition via Second-best Sequence Learning and Decoding](https://aclanthology.org/2020.tacl-1.39.pdf)
+14. [**TACL 2020**]: [Nested Named Entity Recognition via Second-best Sequence Learning and Decoding](https://aclanthology.org/2020.tacl-1.39.pdf)
 	- Authors: Takashi Shibuya, Eduard Hovy
 	- Baseline Methods: LSTM. hyp, layered-CRF, SH (Segm. hyp), Exhaustive, Boundary-aware, GEANN, Merge & Label, Seq2seq
 	- Datasets: ACE-2005, GENIA
@@ -75,27 +87,29 @@
 	
 ## Frequent Baseline Methods
 
-| Methods	|ACE-2004 (F1)	|	ACE-2005 (F1) | GENIA (F1)	| NNE (F1) |
-|:----------|:--------------|:-------------:|:-------------:|:-------------:|
-|[PO-TreeCRF(Fu et al.,2021) + BERT](https://arxiv.org/abs/2012.08478)[6]| 86.6| 85.4|78.2||
-|[W-naive(Wang et al., 2021)](https://aclanthology.org/2021.acl-long.275/)[7]|79.38|78.32|77.03||
-|[W-max(Wang et al., 2021)](https://aclanthology.org/2021.acl-long.275/)[7]|79.92|78.81|77.22||
-|[W-logsumexp(Wang et al., 2021)](https://aclanthology.org/2021.acl-long.275/)[7]|80.08|78.55|77.37||
-|[W-naive(Wang et al., 2021) + BERT](https://aclanthology.org/2021.acl-long.275/)[7]|85.73|84.20|78.45||
-|[W-max(Wang et al., 2021) + BERT](https://aclanthology.org/2021.acl-long.275/)[7]|85.68|84.71|78.67||
-|[W-logsumexp(Wang et al., 2021) + BERT](https://aclanthology.org/2021.acl-long.275/)[7]|86.06|84.30|78.54||
-|[W-naive(Wang et al., 2021) + BERT + FLAIR](https://aclanthology.org/2021.acl-long.275/)[7]|86.11|84.52|78.79||
-|[W-max(Wang et al., 2021) + BERT + FLAIR](https://aclanthology.org/2021.acl-long.275/)[7]|86.19|84.73|78.87||
-|[W-logsumexp(Wang et al., 2021) + BERT + FLAIR](https://aclanthology.org/2021.acl-long.275/)[7]|86.42|84.93|78.93||
-|[Pyramid-Basic (Wang et al., 2020)](https://aclanthology.org/2020.acl-main.525.pdf)[9]|79.83|79.32|77.55|93.64|
-|[Pyramid-Full (Wang et al., 2020)](https://aclanthology.org/2020.acl-main.525.pdf)[9]|80.27|79.42|77.78|93.70|
-|[Pyramid-Basic (Wang et al., 2020) + BERT](https://aclanthology.org/2020.acl-main.525.pdf)[9]|86.28|84.66|79.19|94.37|
-|[Pyramid-Basic (Wang et al., 2020) + BERT + FLAIR](https://aclanthology.org/2020.acl-main.525.pdf)[9]| 86.78| 85.49|79.24|94.47|
-|[Pyramid-Basic (Wang et al., 2020) + ALBERT](https://aclanthology.org/2020.acl-main.525.pdf)[9]|86.99| 85.87| 78.82|94.51|
-|[Pyramid-Basic (Wang et al., 2020) + ALBERT + FLAIR](https://aclanthology.org/2020.acl-main.525.pdf)[9]|86.89| 86.15|78.93| 94.48|
-|[Pyramid-Basic (Wang et al., 2020) + ALBERT + BERT](https://aclanthology.org/2020.acl-main.525.pdf)[9]| 87.70|86.27| 78.95| 94.63|
-|[Pyramid-Full (Wang et al., 2020) + BERT + FLAIR](https://aclanthology.org/2020.acl-main.525.pdf)[9]|||79.31 ||
-|[Pyramid-Full (Wang et al., 2020) + ALBERT + BERT](https://aclanthology.org/2020.acl-main.525.pdf)[9]|87.74|86.34||94.68|
-|[SH (Shibuya & Hovy, 2020)](https://aclanthology.org/2020.tacl-1.39.pdf)[12]|77.44|76.83|77.19||
-|[SH (Shibuya & Hovy, 2020) + BERT](https://aclanthology.org/2020.tacl-1.39.pdf)[12]|84.97|83.99|77.05||
-|[SH (Shibuya & Hovy, 2020) + BERT + FLAIR](https://aclanthology.org/2020.tacl-1.39.pdf)[12]|85.82|84.34|77.36||
+| Methods	|ACE-2004 (F1)	|	ACE-2005 (F1) | GENIA (F1)	| NNE (F1) | KBP-2017 (F1)|
+|:----------|:--------------|:-------------:|:-------------:|:-------------:|:-------------:|
+|[Locate & Label(Tan et al., 2021) + BERT](https://aclanthology.org/2021.acl-long.216/)| 87.41|  86.67|  80.54||  84.05|
+|[Seq2set(Tan et al., 2021) + BERT](https://arxiv.org/pdf/2105.08901.pdf)| 87.26| 87.05| 80.50|| 83.96|
+|[PO-TreeCRF(Fu et al., 2021) + BERT](https://arxiv.org/abs/2012.08478)| 86.6| 85.4|78.2|||
+|[W-naive(Wang et al., 2021)](https://aclanthology.org/2021.acl-long.275/)|79.38|78.32|77.03|||
+|[W-max(Wang et al., 2021)](https://aclanthology.org/2021.acl-long.275/)|79.92|78.81|77.22|||
+|[W-logsumexp(Wang et al., 2021)](https://aclanthology.org/2021.acl-long.275/)|80.08|78.55|77.37|||
+|[W-naive(Wang et al., 2021) + BERT](https://aclanthology.org/2021.acl-long.275/)|85.73|84.20|78.45|||
+|[W-max(Wang et al., 2021) + BERT](https://aclanthology.org/2021.acl-long.275/)|85.68|84.71|78.67|||
+|[W-logsumexp(Wang et al., 2021) + BERT](https://aclanthology.org/2021.acl-long.275/)|86.06|84.30|78.54|||
+|[W-naive(Wang et al., 2021) + BERT + FLAIR](https://aclanthology.org/2021.acl-long.275/)|86.11|84.52|78.79|||
+|[W-max(Wang et al., 2021) + BERT + FLAIR](https://aclanthology.org/2021.acl-long.275/)|86.19|84.73|78.87|||
+|[W-logsumexp(Wang et al., 2021) + BERT + FLAIR](https://aclanthology.org/2021.acl-long.275/)|86.42|84.93|78.93|||
+|[Pyramid-Basic (Wang et al., 2020)](https://aclanthology.org/2020.acl-main.525.pdf)|79.83|79.32|77.55|93.64||
+|[Pyramid-Full (Wang et al., 2020)](https://aclanthology.org/2020.acl-main.525.pdf)|80.27|79.42|77.78|93.70||
+|[Pyramid-Basic (Wang et al., 2020) + BERT](https://aclanthology.org/2020.acl-main.525.pdf)|86.28|84.66|79.19|94.37||
+|[Pyramid-Basic (Wang et al., 2020) + BERT + FLAIR](https://aclanthology.org/2020.acl-main.525.pdf)| 86.78| 85.49|79.24|94.47||
+|[Pyramid-Basic (Wang et al., 2020) + ALBERT](https://aclanthology.org/2020.acl-main.525.pdf)|86.99| 85.87| 78.82|94.51||
+|[Pyramid-Basic (Wang et al., 2020) + ALBERT + FLAIR](https://aclanthology.org/2020.acl-main.525.pdf)|86.89| 86.15|78.93| 94.48||
+|[Pyramid-Basic (Wang et al., 2020) + ALBERT + BERT](https://aclanthology.org/2020.acl-main.525.pdf)| 87.70|86.27| 78.95| 94.63||
+|[Pyramid-Full (Wang et al., 2020) + BERT + FLAIR](https://aclanthology.org/2020.acl-main.525.pdf)|||79.31 |||
+|[Pyramid-Full (Wang et al., 2020) + ALBERT + BERT](https://aclanthology.org/2020.acl-main.525.pdf)|87.74|86.34||94.68||
+|[SH (Shibuya & Hovy, 2020)](https://aclanthology.org/2020.tacl-1.39.pdf)|77.44|76.83|77.19|||
+|[SH (Shibuya & Hovy, 2020) + BERT](https://aclanthology.org/2020.tacl-1.39.pdf)|84.97|83.99|77.05|||
+|[SH (Shibuya & Hovy, 2020) + BERT + FLAIR](https://aclanthology.org/2020.tacl-1.39.pdf)|85.82|84.34|77.36|||
