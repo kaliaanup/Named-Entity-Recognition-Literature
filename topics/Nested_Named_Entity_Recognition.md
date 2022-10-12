@@ -4,21 +4,25 @@
 	- Authors: Chao Lou, Songlin Yang, Kewei Tu
 	- Baseline Methods: SH, Pyramid, PO-TreeCRF, Seq2set, Locate&Label
 	- Datasets: ACE2004, ACE2005, GENIA
-	- Approach: [Code](https://github.com/LouChao98/nner_as_parsing)
+	- Approach: **NNER-AS-PARSING**[Code](https://github.com/LouChao98/nner_as_parsing)
 
 2. [**ACL 2022**]: [Nested Named Entity Recognition with Span-level Graphs](https://aclanthology.org/2022.acl-long.63/)
 	- Authors: Juncheng Wan, Dongyu Ru, Weinan Zhang, Yong Yu
 	- Baseline Methods: HyperGraph, Stack-LSTM, Seg-Graph, ARN, Seq2seq, Path-BERT, ML, Pyramid, SpERT, BENSC,  BERTMRC, NER-DP, DYGIE
 	- Datasets: ACE2004, ACE2005, GENIA
+	- Approach: **SLG-NER**
 	
 3. [**COLING 2022**]: [Nested Named Entity Recognition as Corpus Aware Holistic Structure Parsing](https://arxiv.org/abs/2204.08006)
 	- Authors: Yifei Yang, Zuchao Li, Hai Zhao
 	- Baseline Methods: Hyper-Graph, Seg-Graph, ARN, Merge-BERT, DYGIE, Seq2seq-BERT, Path-BERT, BERT-MRC, Seq2seq-BART, Seq2set-BERT 
 	- Datasets: ACE2005, GENIA, KBP2017
+	- Approach: **HSPNER**
 	
-4. [**COLING 2022**]: [Simple yet Powerful: An Overlooked Architecture for Nested Named Entity Recognition](https://openreview.net/pdf?id=cL4tgY1ZxS)
+4. [**COLING 2022**]: [Simple yet Powerful: An Overlooked Architecture for Nested Named Entity Recognition](https://aclanthology.org/2022.coling-1.184/)
+	- Authors: Matias Rojas, Felipe Bravo-Marquez, Jocelyn Dunstan
 	- Baseline Methods: Pyramid, Recursive-CRF, Layered, Exhaustive, Boundary, Biaffine
-	- Datasets: GENIA, GermEval, Chilean Waiting List 
+	- Datasets: GENIA, GermEval, Chilean Waiting List (performs best)
+	- Approach: **MLC**[Code](https://github.com/matirojasg/nested-ner-mlc)
 	
 5. [**AAAI 2021**]: [A Supervised Multi-Head Self-Attention Network for Nested Named Entity Recognition](https://ojs.aaai.org/index.php/AAAI/article/view/17669)
 	- Authors: Yongxiu Xu, Heyan Huang, Chong Feng, Yue Hu
@@ -31,49 +35,56 @@
 	- Baseline Methods: LSTM-CRF, FOFE, Transition, Cascaded-CRF, SH, MGNER, Merge and Label, Seq2seq, BENSC, Pyramid
 	- Datasets: ACE2004, ACE2005, GENIA
 	- Approach: **PO-TreeCRF**[Code](https://github.com/FranxYao/Partially-Observed-TreeCRFs)
-	
-7. [**ACL 2021**]: [Nested Named Entity Recognition via Explicitly Excluding the Influence of the Best Path](https://aclanthology.org/2021.acl-long.275/)
+
+7. [**ACL 2021**]: [A Unified Generative Framework for Various NER Subtasks](https://aclanthology.org/2021.acl-long.451/)
+	- Authors: Hang Yan, Tao Gui, Junqi Dai, Qipeng Guo, Zheng Zhang, Xipeng Qiu
+	- Baseline Methods: SH, Pyramid, a few more flat ner baselines
+	- Datasets: ACE2004, ACE2005, GENIA
+	- Approach: **BARTNER**[Code](https://github.com/yhcc/BARTNER)
+
+
+8. [**ACL 2021**]: [Nested Named Entity Recognition via Explicitly Excluding the Influence of the Best Path](https://aclanthology.org/2021.acl-long.275/)
 	- Authors: Yiran Wang, Hiroyuki Shindo, Yuji Matsumoto, Taro Watanabe
 	- Baseline Methods:layered-CRF, Transition, SH (Segm. hyp), Anchor-Region, Seq2seq, (a few more..)
 	- Datasets:ACE2004, ACE2005, GENIA
 	- Approach: **W**[Code](https://github.com/speedcell4/nersted)
 
-8. [**IJCAI 2021**]: [A Sequence-to-Set Network for Nested Named Entity Recognition](https://arxiv.org/pdf/2105.08901.pdf)
+9. [**IJCAI 2021**]: [A Sequence-to-Set Network for Nested Named Entity Recognition](https://arxiv.org/pdf/2105.08901.pdf)
 	- Authors: Zeqi Tan, Yongliang Shen, Shuai Zhang, Weiming Lu, Yueting Zhuang
 	- Baseline Methods: Biaffine, Pyramid, BiFlaG, Seq2seq, Second-best, ARN, Hyper-Graph, KBP17-Best
 	- Datasets: ACE 2004,  ACE 2005, GENIA, KBP 2017 
 	- Approach: **Seq2set** [Code](https://github.com/zqtan1024/sequence-to-set)
 	
-9. [**ACL 2021**]: [Locate and Label: A Two-stage Identifier for Nested Named Entity Recognition](https://aclanthology.org/2021.acl-long.216/)
+10. [**ACL 2021**]: [Locate and Label: A Two-stage Identifier for Nested Named Entity Recognition](https://aclanthology.org/2021.acl-long.216/)
 	- Authors: Yongliang Shen, Xinyin Ma, Zeqi Tan, Shuai Zhang, Wen Wang, Weiming Lu
 	- Baseline Methods: SH, Pyramid, few more  ..
 	- Datasets: ACE 2004,  ACE 2005, GENIA, KBP 2017 
 	- Approach: **Locate & Label**[Code](https://github.com/tricktreat/locate-and-label)
 
-10. [**ACL 2020**]: [Bipartite Flat-Graph Network for Nested Named Entity Recognition](https://aclanthology.org/2020.acl-main.571/)
+11. [**ACL 2020**]: [Bipartite Flat-Graph Network for Nested Named Entity Recognition](https://aclanthology.org/2020.acl-main.571/)
 	- Authors: Ying Luo, Hai Zhao
 	- Baseline Methods: LSTM-CRF, Multi-CRF, layered-CRF, LH (LSTM. hyp), SH (Segm. hyp), Exhaustive, Anchor-Region, Merge & Label, Boundary-aware, GEANN, KBP2017 Overview
 	- Datasets: ACE2005, GENIA, KBP2017
 	- Approach: [Code](https://github.com/cslydia/BiFlaG)
 	
-11. [**ACL 2020**]: [Pyramid: A Layered Model for Nested Named Entity Recognition](https://aclanthology.org/2020.acl-main.525.pdf)
+12. [**ACL 2020**]: [Pyramid: A Layered Model for Nested Named Entity Recognition](https://aclanthology.org/2020.acl-main.525.pdf)
 	- Authors: Jue Wang, Lidan Shou, Ke Chen, Gang Chen
 	- Baseline Methods: Non-LM based (Transition, SH, FOFE, Merge & Label, Anchor-Region, LH, Cascaded-CRF), LM based (ELMO, BERT, BERT+Flair)
 	- Datasets:ACE-2004, ACE-2005, GENIA, NNE
 	- Approach: **Pyramid**[Code](https://github.com/LorrinWWW/Pyramid)
 	
-12. [**AAAI 2020**]: [Boundary Enhanced Neural Span Classification for Nested Named Entity Recognition](https://ojs.aaai.org/index.php/AAAI/article/view/6434)
+13. [**AAAI 2020**]: [Boundary Enhanced Neural Span Classification for Nested Named Entity Recognition](https://ojs.aaai.org/index.php/AAAI/article/view/6434)
 	- Authors: Chuanqi Tan, Wei Qiu, Mosha Chen, Rui Wang, Fei Huang
 	- Baseline Methods: LSTM-CRF, Multi-CRF, FOFE, Transition, Cascaded-CRF, MH, LH, SH, ARNs, MGNER, Merge and Label
 	- Datasets: ACE2004, ACE2005, GENIA
 	- Approach:
 	
-13. [**EMNLP 2020**]: [HIT: Nested Named Entity Recognition via Head-Tail Pair and Token Interaction](https://aclanthology.org/2020.emnlp-main.486/)
+14. [**EMNLP 2020**]: [HIT: Nested Named Entity Recognition via Head-Tail Pair and Token Interaction](https://aclanthology.org/2020.emnlp-main.486/)
 	- Authors: Yu Wang, Yun Li, Hanghang Tong, Ziye Zhu
 	- Baseline Methods: Sequence-based methods, Hypergraph-based methods.
 	- Datasets: GENIA, GermEval, JNLPBA
 	-
-14. [**TACL 2020**]: [Nested Named Entity Recognition via Second-best Sequence Learning and Decoding](https://aclanthology.org/2020.tacl-1.39.pdf)
+15. [**TACL 2020**]: [Nested Named Entity Recognition via Second-best Sequence Learning and Decoding](https://aclanthology.org/2020.tacl-1.39.pdf)
 	- Authors: Takashi Shibuya, Eduard Hovy
 	- Baseline Methods: LSTM. hyp, layered-CRF, SH (Segm. hyp), Exhaustive, Boundary-aware, GEANN, Merge & Label, Seq2seq
 	- Datasets: ACE-2005, GENIA
@@ -89,8 +100,12 @@
 
 | Methods	|ACE-2004 (F1)	|	ACE-2005 (F1) | GENIA (F1)	| NNE (F1) | KBP-2017 (F1)|
 |:----------|:--------------|:-------------:|:-------------:|:-------------:|:-------------:|
+|[HSPNER (Yang et al., 2022)](https://arxiv.org/pdf/2204.08006.pdf)| | 87.75|  77.70||87.67|
+|[NNER-AS-PARSING (Lou et al., 2022)](https://aclanthology.org/2022.acl-long.428.pdf)| 87.90|  86.91|  78.44|94.64||
+|[SLG-NER (Wan et al., 2022)](https://aclanthology.org/2022.acl-long.63/)| 86.31|  85.11|  79.30|||
 |[Locate & Label(Tan et al., 2021) + BERT](https://aclanthology.org/2021.acl-long.216/)| 87.41|  86.67|  80.54||  84.05|
 |[Seq2set(Tan et al., 2021) + BERT](https://arxiv.org/pdf/2105.08901.pdf)| 87.26| 87.05| 80.50|| 83.96|
+|[BARTNER-Word(Yan et al., 2021)+ BART-Large](https://aclanthology.org/2021.acl-long.451/)| 86.84| 84.74|  78.93|||
 |[PO-TreeCRF(Fu et al., 2021) + BERT](https://arxiv.org/abs/2012.08478)| 86.6| 85.4|78.2|||
 |[W-naive(Wang et al., 2021)](https://aclanthology.org/2021.acl-long.275/)|79.38|78.32|77.03|||
 |[W-max(Wang et al., 2021)](https://aclanthology.org/2021.acl-long.275/)|79.92|78.81|77.22|||
