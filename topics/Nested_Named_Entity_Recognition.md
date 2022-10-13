@@ -113,7 +113,7 @@
 
 | Methods	|ACE-2004 (F1)	|	ACE-2005 (F1) | GENIA (F1)	| NNE (F1) | KBP-2017 (F1)| Time Complexity|
 |:----------|:--------------|:-------------:|:-------------:|:-------------:|:-------------:|:-------------:|
-|[PointerNNER (Yang and Tu, 2022)](https://aclanthology.org/2022.acl-long.171.pdf)|86.94|85.5378.16|||O(N^2)|
+|[PointerNNER (Yang and Tu, 2022)](https://aclanthology.org/2022.acl-long.171.pdf)|86.94|85.53|78.16|||O(N^2)|
 |[PnRNet (Wu et al., 2022))](https://www.ijcai.org/proceedings/2022/0613.pdf)|88.12|87.63|81.85||85.27||
 |[HSPNER (Yang et al., 2022)](https://arxiv.org/pdf/2204.08006.pdf)| | 87.75|  77.70||87.67|O(N^3)|
 |[NNER-AS-PARSING (Lou et al., 2022)](https://aclanthology.org/2022.acl-long.428.pdf)| 87.90|  86.91|  78.44|94.64||O(N^4)|
