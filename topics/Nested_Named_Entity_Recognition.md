@@ -113,13 +113,13 @@
 
 | Methods	|ACE-2004 (F1)	|	ACE-2005 (F1) | GENIA (F1)	| NNE (F1) | KBP-2017 (F1)| Time Complexity|
 |:----------|:--------------|:-------------:|:-------------:|:-------------:|:-------------:|:-------------:|
-|[PointerNNER (Yang and Tu, 2022)](https://aclanthology.org/2022.acl-long.171.pdf)|86.94|85.53|78.16|||O(N^2)|
 |[PnRNet (Wu et al., 2022))](https://www.ijcai.org/proceedings/2022/0613.pdf)|88.12|87.63|81.85||85.27||
 |[HSPNER (Yang et al., 2022)](https://arxiv.org/pdf/2204.08006.pdf)| | 87.75|  77.70||87.67|O(N^3)|
 |[NNER-AS-PARSING (Lou et al., 2022)](https://aclanthology.org/2022.acl-long.428.pdf)| 87.90|  86.91|  78.44|94.64||O(N^4)|
 |[SLG-NER (Wan et al., 2022)](https://aclanthology.org/2022.acl-long.63/)| 86.31|  85.11|  79.30|||O(N^2*d)|
 |[Locate & Label(Shen et al., 2021) + BERT](https://aclanthology.org/2021.acl-long.216/)| 87.41|  86.67|  80.54||  84.05|O(N^2+ck)|
 |[Seq2set(Tan et al., 2021) + BERT](https://arxiv.org/pdf/2105.08901.pdf)| 87.26| 87.05| 80.50|| 83.96||
+|[PointerNNER (Yang and Tu, 2022)](https://aclanthology.org/2022.acl-long.171.pdf)|86.94|85.53|78.16|||O(N^2)|
 |[BARTNER-Word(Yan et al., 2021)+ BART-Large](https://aclanthology.org/2021.acl-long.451/)| 86.84| 84.74|  78.93||||
 |[PO-TreeCRF(Fu et al., 2021) + BERT](https://arxiv.org/abs/2012.08478)| 86.6| 85.4|78.2|||O(N^3)|
 |[W-naive(Wang et al., 2021)](https://aclanthology.org/2021.acl-long.275/)|79.38|78.32|77.03|||O(n+mlogn)|
