@@ -98,33 +98,33 @@
 	
 ## Frequent Baseline Methods
 
-| Methods	|ACE-2004 (F1)	|	ACE-2005 (F1) | GENIA (F1)	| NNE (F1) | KBP-2017 (F1)|
-|:----------|:--------------|:-------------:|:-------------:|:-------------:|:-------------:|
-|[HSPNER (Yang et al., 2022)](https://arxiv.org/pdf/2204.08006.pdf)| | 87.75|  77.70||87.67|
-|[NNER-AS-PARSING (Lou et al., 2022)](https://aclanthology.org/2022.acl-long.428.pdf)| 87.90|  86.91|  78.44|94.64||
-|[SLG-NER (Wan et al., 2022)](https://aclanthology.org/2022.acl-long.63/)| 86.31|  85.11|  79.30|||
-|[Locate & Label(Tan et al., 2021) + BERT](https://aclanthology.org/2021.acl-long.216/)| 87.41|  86.67|  80.54||  84.05|
-|[Seq2set(Tan et al., 2021) + BERT](https://arxiv.org/pdf/2105.08901.pdf)| 87.26| 87.05| 80.50|| 83.96|
-|[BARTNER-Word(Yan et al., 2021)+ BART-Large](https://aclanthology.org/2021.acl-long.451/)| 86.84| 84.74|  78.93|||
-|[PO-TreeCRF(Fu et al., 2021) + BERT](https://arxiv.org/abs/2012.08478)| 86.6| 85.4|78.2|||
-|[W-naive(Wang et al., 2021)](https://aclanthology.org/2021.acl-long.275/)|79.38|78.32|77.03|||
-|[W-max(Wang et al., 2021)](https://aclanthology.org/2021.acl-long.275/)|79.92|78.81|77.22|||
-|[W-logsumexp(Wang et al., 2021)](https://aclanthology.org/2021.acl-long.275/)|80.08|78.55|77.37|||
-|[W-naive(Wang et al., 2021) + BERT](https://aclanthology.org/2021.acl-long.275/)|85.73|84.20|78.45|||
-|[W-max(Wang et al., 2021) + BERT](https://aclanthology.org/2021.acl-long.275/)|85.68|84.71|78.67|||
-|[W-logsumexp(Wang et al., 2021) + BERT](https://aclanthology.org/2021.acl-long.275/)|86.06|84.30|78.54|||
-|[W-naive(Wang et al., 2021) + BERT + FLAIR](https://aclanthology.org/2021.acl-long.275/)|86.11|84.52|78.79|||
-|[W-max(Wang et al., 2021) + BERT + FLAIR](https://aclanthology.org/2021.acl-long.275/)|86.19|84.73|78.87|||
-|[W-logsumexp(Wang et al., 2021) + BERT + FLAIR](https://aclanthology.org/2021.acl-long.275/)|86.42|84.93|78.93|||
-|[Pyramid-Basic (Wang et al., 2020)](https://aclanthology.org/2020.acl-main.525.pdf)|79.83|79.32|77.55|93.64||
-|[Pyramid-Full (Wang et al., 2020)](https://aclanthology.org/2020.acl-main.525.pdf)|80.27|79.42|77.78|93.70||
-|[Pyramid-Basic (Wang et al., 2020) + BERT](https://aclanthology.org/2020.acl-main.525.pdf)|86.28|84.66|79.19|94.37||
-|[Pyramid-Basic (Wang et al., 2020) + BERT + FLAIR](https://aclanthology.org/2020.acl-main.525.pdf)| 86.78| 85.49|79.24|94.47||
-|[Pyramid-Basic (Wang et al., 2020) + ALBERT](https://aclanthology.org/2020.acl-main.525.pdf)|86.99| 85.87| 78.82|94.51||
-|[Pyramid-Basic (Wang et al., 2020) + ALBERT + FLAIR](https://aclanthology.org/2020.acl-main.525.pdf)|86.89| 86.15|78.93| 94.48||
-|[Pyramid-Basic (Wang et al., 2020) + ALBERT + BERT](https://aclanthology.org/2020.acl-main.525.pdf)| 87.70|86.27| 78.95| 94.63||
-|[Pyramid-Full (Wang et al., 2020) + BERT + FLAIR](https://aclanthology.org/2020.acl-main.525.pdf)|||79.31 |||
-|[Pyramid-Full (Wang et al., 2020) + ALBERT + BERT](https://aclanthology.org/2020.acl-main.525.pdf)|87.74|86.34||94.68||
-|[SH (Shibuya & Hovy, 2020)](https://aclanthology.org/2020.tacl-1.39.pdf)|77.44|76.83|77.19|||
-|[SH (Shibuya & Hovy, 2020) + BERT](https://aclanthology.org/2020.tacl-1.39.pdf)|84.97|83.99|77.05|||
-|[SH (Shibuya & Hovy, 2020) + BERT + FLAIR](https://aclanthology.org/2020.tacl-1.39.pdf)|85.82|84.34|77.36|||
+| Methods	|ACE-2004 (F1)	|	ACE-2005 (F1) | GENIA (F1)	| NNE (F1) | KBP-2017 (F1)| Time Complexity|
+|:----------|:--------------|:-------------:|:-------------:|:-------------:|:-------------:|:-------------:|
+|[HSPNER (Yang et al., 2022)](https://arxiv.org/pdf/2204.08006.pdf)| | 87.75|  77.70||87.67|O(N^3)|
+|[NNER-AS-PARSING (Lou et al., 2022)](https://aclanthology.org/2022.acl-long.428.pdf)| 87.90|  86.91|  78.44|94.64||O(N^4)|
+|[SLG-NER (Wan et al., 2022)](https://aclanthology.org/2022.acl-long.63/)| 86.31|  85.11|  79.30|||O(N^2*d)|
+|[Locate & Label(Tan et al., 2021) + BERT](https://aclanthology.org/2021.acl-long.216/)| 87.41|  86.67|  80.54||  84.05|O(N^2+ck)|
+|[Seq2set(Tan et al., 2021) + BERT](https://arxiv.org/pdf/2105.08901.pdf)| 87.26| 87.05| 80.50|| 83.96||
+|[BARTNER-Word(Yan et al., 2021)+ BART-Large](https://aclanthology.org/2021.acl-long.451/)| 86.84| 84.74|  78.93||||
+|[PO-TreeCRF(Fu et al., 2021) + BERT](https://arxiv.org/abs/2012.08478)| 86.6| 85.4|78.2|||O(N^3)|
+|[W-naive(Wang et al., 2021)](https://aclanthology.org/2021.acl-long.275/)|79.38|78.32|77.03|||O(n+mlogn)|
+|[W-max(Wang et al., 2021)](https://aclanthology.org/2021.acl-long.275/)|79.92|78.81|77.22|||O(n+mlogn)|
+|[W-logsumexp(Wang et al., 2021)](https://aclanthology.org/2021.acl-long.275/)|80.08|78.55|77.37|||O(n+mlogn)|
+|[W-naive(Wang et al., 2021) + BERT](https://aclanthology.org/2021.acl-long.275/)|85.73|84.20|78.45|||O(n+mlogn)|
+|[W-max(Wang et al., 2021) + BERT](https://aclanthology.org/2021.acl-long.275/)|85.68|84.71|78.67|||O(n+mlogn)|
+|[W-logsumexp(Wang et al., 2021) + BERT](https://aclanthology.org/2021.acl-long.275/)|86.06|84.30|78.54|||O(n+mlogn)|
+|[W-naive(Wang et al., 2021) + BERT + FLAIR](https://aclanthology.org/2021.acl-long.275/)|86.11|84.52|78.79|||O(n+mlogn)|
+|[W-max(Wang et al., 2021) + BERT + FLAIR](https://aclanthology.org/2021.acl-long.275/)|86.19|84.73|78.87|||O(n+mlogn)|
+|[W-logsumexp(Wang et al., 2021) + BERT + FLAIR](https://aclanthology.org/2021.acl-long.275/)|86.42|84.93|78.93|||O(n+mlogn)|
+|[Pyramid-Basic (Wang et al., 2020)](https://aclanthology.org/2020.acl-main.525.pdf)|79.83|79.32|77.55|93.64||O(TL)|
+|[Pyramid-Full (Wang et al., 2020)](https://aclanthology.org/2020.acl-main.525.pdf)|80.27|79.42|77.78|93.70||O(TL)|
+|[Pyramid-Basic (Wang et al., 2020) + BERT](https://aclanthology.org/2020.acl-main.525.pdf)|86.28|84.66|79.19|94.37||O(TL)|
+|[Pyramid-Basic (Wang et al., 2020) + BERT + FLAIR](https://aclanthology.org/2020.acl-main.525.pdf)| 86.78| 85.49|79.24|94.47||O(TL)|
+|[Pyramid-Basic (Wang et al., 2020) + ALBERT](https://aclanthology.org/2020.acl-main.525.pdf)|86.99| 85.87| 78.82|94.51||O(TL)|
+|[Pyramid-Basic (Wang et al., 2020) + ALBERT + FLAIR](https://aclanthology.org/2020.acl-main.525.pdf)|86.89| 86.15|78.93| 94.48||O(TL)|
+|[Pyramid-Basic (Wang et al., 2020) + ALBERT + BERT](https://aclanthology.org/2020.acl-main.525.pdf)| 87.70|86.27| 78.95| 94.63||O(TL)|
+|[Pyramid-Full (Wang et al., 2020) + BERT + FLAIR](https://aclanthology.org/2020.acl-main.525.pdf)|||79.31 |||O(TL)|
+|[Pyramid-Full (Wang et al., 2020) + ALBERT + BERT](https://aclanthology.org/2020.acl-main.525.pdf)|87.74|86.34||94.68||O(TL)|
+|[SH (Shibuya & Hovy, 2020)](https://aclanthology.org/2020.tacl-1.39.pdf)|77.44|76.83|77.19|||O(mn^2)|
+|[SH (Shibuya & Hovy, 2020) + BERT](https://aclanthology.org/2020.tacl-1.39.pdf)|84.97|83.99|77.05|||O(mn^2)|
+|[SH (Shibuya & Hovy, 2020) + BERT + FLAIR](https://aclanthology.org/2020.tacl-1.39.pdf)|85.82|84.34|77.36|||O(mn^2)|
