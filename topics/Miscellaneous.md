@@ -1,9 +1,5 @@
 # Miscellaneous
 
-## Pointer Networks
-
-1. [**ACL 2022**]: Bottom-Up Constituency Parsing and Nested Named Entity Recognition with Pointer Networks
-
 ## Hero-Gang Neural Model
 
 1. [**NAACL 2022**]: Hero-Gang Neural Model For Named Entity Recognition
@@ -32,9 +28,6 @@
 
 1. [**AAAI 2022**]: Unified Named Entity Recognition as Word-Word Relation Classification
 
-## Two-Stage Set Prediction Network
-
-1. [**IJCAI 2022**]: Propose-and-Refine: A Two-Stage Set Prediction Network for Nested Named Entity Recognition
 
 ##  Knowledge-Aware Named Entity Recognition 
 
@@ -43,10 +36,6 @@
 ## Continual Learning
 
 1. [**AAAI 2021**]: Continual Learning for Named Entity Recognition
-
-## Two Stage Identifier
-
-1. [**ACL 2021**]: Locate and Label: A Two-stage Identifier for Nested Named Entity Recognition
 
 ## Subsequence Based Deep Active Learning
 
@@ -87,10 +76,6 @@
 ## Interpretability Analysis
 
 1. [**NAACL 2021**]: Interpretability Analysis for Named Entity Recognition to Understand System Predictions and How They Can Improve
-
-## Sequence-to-Set Network
-
-1. [**IJCAI 2021**]: A Sequence-to-Set Network for Nested Named Entity Recognition
 
 ## Low Shot
 

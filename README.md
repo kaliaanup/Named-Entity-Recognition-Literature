@@ -2,9 +2,9 @@
 
 ### Ranked ordered by topics
 
-1. [MultiLingual Named Entity Recognition](https://github.com/kaliaanup/Named-Entity-Recognition-Literature/blob/main/topics/Multilingual_Named_Entity_Recognition.md) (17 Papers)
-2. [Distant Supervised Named Entity Recognition](https://github.com/kaliaanup/Named-Entity-Recognition-Literature/blob/main/topics/Distant_Supervised_Named_Entity_Recognition.md) (15 Papers)
-3. [Nested Named Entity Recognition](https://github.com/kaliaanup/Named-Entity-Recognition-Literature/blob/main/topics/Nested_Named_Entity_Recognition.md) (13 Papers)
+1. [Nested Named Entity Recognition](https://github.com/kaliaanup/Named-Entity-Recognition-Literature/blob/main/topics/Nested_Named_Entity_Recognition.md) (17 Papers)
+2. [MultiLingual Named Entity Recognition](https://github.com/kaliaanup/Named-Entity-Recognition-Literature/blob/main/topics/Multilingual_Named_Entity_Recognition.md) (17 Papers)
+3. [Distant Supervised Named Entity Recognition](https://github.com/kaliaanup/Named-Entity-Recognition-Literature/blob/main/topics/Distant_Supervised_Named_Entity_Recognition.md) (15 Papers)
 4. [Few-Shot Named Entity Recognition](https://github.com/kaliaanup/Named-Entity-Recognition-Literature/blob/main/topics/Few_Shot_Named_Entity_Recognition.md) (11 Papers)
 5. [Cross-Domain Named Entity Recognition](https://github.com/kaliaanup/Named-Entity-Recognition-Literature/blob/main/topics/Cross_Domain_Named_Entity_Recognition.md) (7 Papers)
 6. [Cross-Lingual Named Entity Recognition](https://github.com/kaliaanup/Named-Entity-Recognition-Literature/blob/main/topics/Cross_Lingual_Named_Entity_Recognition.md) (5 Papers)
@@ -24,7 +24,7 @@
 20. [Domain-Specific Named Entity Recognition](https://github.com/kaliaanup/Named-Entity-Recognition-Literature/blob/main/topics/Domain_Specific_Named_Entity_Recognition.md)
 21. [Data Augmentation Based Named Entity Recognition](https://github.com/kaliaanup/Named-Entity-Recognition-Literature/blob/main/topics/Data_Augmentation_Named_Entity_Recognition.md) (2 Papers)
 22. [Domain Adaptation Based Named Entity Recognition](https://github.com/kaliaanup/Named-Entity-Recognition-Literature/blob/main/topics/Domain_Adaptation_Named_Entity_Recognition.md) (2 Papers)
-23. [Miscellaneous](https://github.com/kaliaanup/Named-Entity-Recognition-Literature/blob/main/Miscellaneous.md)
+23. [Miscellaneous](https://github.com/kaliaanup/Named-Entity-Recognition-Literature/blob/main/topics/Miscellaneous.md)
 
 # Datasets
 
